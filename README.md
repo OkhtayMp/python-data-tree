@@ -18,10 +18,11 @@ A powerful ANSI-colored tree visualization tool for nested Python data structure
 
 ## Installation
 
-```bash
-git clone https://github.com/okhtaymp/python-data-tree.git
-cd python-data-tree
-```
+- ### [Download](https://raw.githubusercontent.com/OkhtayMp/python-data-tree/refs/heads/main/datatree.py)
+
+- ```bash 
+  curl -O https://github.com/OkhtayMp/python-data-tree/raw/refs/heads/main/datatree.py
+  ```
 
 ## Usage
 
