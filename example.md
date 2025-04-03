@@ -110,51 +110,52 @@ print_tree(test_data)
 ```
 
 ## Output
+This output is color-coded like the image: [Image](images/example.png)
 
 
-<pre>Comprehensive Data Structure Demonstration:
-<font color="#00AAAA">├── </font><font color="#8A8A8A">0</font> <font color="#BCBCBC">metadata</font> <font color="#AA5500">(</font><font color="#8A8A8A">dict</font><font color="#AA5500">)</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">├── </font><font color="#8A8A8A">0.0</font> <font color="#BCBCBC">created</font> <font color="#AA5500">(</font><font color="#8A8A8A">date</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">2023-05-15</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">├── </font><font color="#8A8A8A">0.1</font> <font color="#BCBCBC">author</font> <font color="#AA5500">(</font><font color="#8A8A8A">str</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">Test Suite</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">╰── </font><font color="#8A8A8A">0.2</font> <font color="#BCBCBC">version</font> <font color="#AA5500">(</font><font color="#8A8A8A">float</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">1.2</font>
-<font color="#00AAAA">├── </font><font color="#8A8A8A">1</font> <font color="#BCBCBC">users</font> <font color="#AA5500">(</font><font color="#8A8A8A">list</font><font color="#AA5500">)</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">├── </font><font color="#8A8A8A">1.0</font> <font color="#AA5500">(</font><font color="#8A8A8A">User</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">&lt;__main__.User object at 0x75870d397ca0&gt;</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">├── </font><font color="#8A8A8A">1.1</font> <font color="#AA5500">(</font><font color="#8A8A8A">User</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">&lt;__main__.User object at 0x75870d397c40&gt;</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">╰── </font><font color="#8A8A8A">1.2</font> <font color="#AA5500">(</font><font color="#8A8A8A">User</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">&lt;__main__.User object at 0x75870d397be0&gt;</font>
-<font color="#00AAAA">├── </font><font color="#8A8A8A">2</font> <font color="#BCBCBC">calculations</font> <font color="#AA5500">(</font><font color="#8A8A8A">dict</font><font color="#AA5500">)</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">├── </font><font color="#8A8A8A">2.0</font> <font color="#BCBCBC">scores</font> <font color="#AA5500">(</font><font color="#8A8A8A">list</font><font color="#AA5500">)</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">│   </font><font color="#00AA00">├── </font><font color="#8A8A8A">2.0.0</font> <font color="#AA5500">(</font><font color="#8A8A8A">float</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">42.0</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">│   </font><font color="#00AA00">├── </font><font color="#8A8A8A">2.0.1</font> <font color="#AA5500">(</font><font color="#8A8A8A">float</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">52.5</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">│   </font><font color="#00AA00">╰── </font><font color="#8A8A8A">2.0.2</font> <font color="#AA5500">(</font><font color="#8A8A8A">float</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">63.0</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">╰── </font><font color="#8A8A8A">2.1</font> <font color="#BCBCBC">average</font> <font color="#AA5500">(</font><font color="#8A8A8A">float</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">35.0</font>
-<font color="#00AAAA">╰── </font><font color="#8A8A8A">3</font> <font color="#BCBCBC">data_types</font> <font color="#AA5500">(</font><font color="#8A8A8A">dict</font><font color="#AA5500">)</font>
-    <font color="#AA00AA">├── </font><font color="#8A8A8A">3.0</font> <font color="#BCBCBC">primitives</font> <font color="#AA5500">(</font><font color="#8A8A8A">dict</font><font color="#AA5500">)</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">├── </font><font color="#8A8A8A">3.0.0</font> <font color="#BCBCBC">integer</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">42</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">├── </font><font color="#8A8A8A">3.0.1</font> <font color="#BCBCBC">float</font> <font color="#AA5500">(</font><font color="#8A8A8A">float</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">3.14</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">├── </font><font color="#8A8A8A">3.0.2</font> <font color="#BCBCBC">string</font> <font color="#AA5500">(</font><font color="#8A8A8A">str</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">hello</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">├── </font><font color="#8A8A8A">3.0.3</font> <font color="#BCBCBC">boolean</font> <font color="#AA5500">(</font><font color="#8A8A8A">bool</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">True</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">╰── </font><font color="#8A8A8A">3.0.4</font> <font color="#BCBCBC">none</font> <font color="#AA5500">(</font><font color="#8A8A8A">NoneType</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">None</font>
-    <font color="#AA00AA">├── </font><font color="#8A8A8A">3.1</font> <font color="#BCBCBC">collections</font> <font color="#AA5500">(</font><font color="#8A8A8A">dict</font><font color="#AA5500">)</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">├── </font><font color="#8A8A8A">3.1.0</font> <font color="#BCBCBC">list</font> <font color="#AA5500">(</font><font color="#8A8A8A">list</font><font color="#AA5500">)</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">│   </font><font color="#0000AA">├── </font><font color="#8A8A8A">3.1.0.0</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">1</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">│   </font><font color="#0000AA">├── </font><font color="#8A8A8A">3.1.0.1</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">2</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">│   </font><font color="#0000AA">╰── </font><font color="#8A8A8A">3.1.0.2</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">3</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">├── </font><font color="#8A8A8A">3.1.1</font> <font color="#BCBCBC">tuple</font> <font color="#AA5500">(</font><font color="#8A8A8A">tuple</font><font color="#AA5500">)</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">│   </font><font color="#0000AA">├── </font><font color="#8A8A8A">3.1.1.0</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">4</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">│   </font><font color="#0000AA">├── </font><font color="#8A8A8A">3.1.1.1</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">5</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">│   </font><font color="#0000AA">╰── </font><font color="#8A8A8A">3.1.1.2</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">6</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">├── </font><font color="#8A8A8A">3.1.2</font> <font color="#BCBCBC">set</font> <font color="#AA5500">(</font><font color="#8A8A8A">set</font><font color="#AA5500">)</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">│   </font><font color="#0000AA">├── </font><font color="#8A8A8A">3.1.2.0</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">8</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">│   </font><font color="#0000AA">├── </font><font color="#8A8A8A">3.1.2.1</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">9</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">│   </font><font color="#0000AA">╰── </font><font color="#8A8A8A">3.1.2.2</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">7</font>
-    <font color="#AA00AA">│   </font><font color="#00AA00">╰── </font><font color="#8A8A8A">3.1.3</font> <font color="#BCBCBC">dict</font> <font color="#AA5500">(</font><font color="#8A8A8A">dict</font><font color="#AA5500">)</font>
-    <font color="#AA00AA">│   </font>    <font color="#0000AA">├── </font><font color="#8A8A8A">3.1.3.0</font> <font color="#BCBCBC">a</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">1</font>
-    <font color="#AA00AA">│   </font>    <font color="#0000AA">╰── </font><font color="#8A8A8A">3.1.3.1</font> <font color="#BCBCBC">b</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">2</font>
-    <font color="#AA00AA">╰── </font><font color="#8A8A8A">3.2</font> <font color="#BCBCBC">special</font> <font color="#AA5500">(</font><font color="#8A8A8A">dict</font><font color="#AA5500">)</font>
-        <font color="#00AA00">├── </font><font color="#8A8A8A">3.2.0</font> <font color="#BCBCBC">binary</font> <font color="#AA5500">(</font><font color="#8A8A8A">bytes</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">b&apos;\x01\x02\x03&apos;</font>
-        <font color="#00AA00">├── </font><font color="#8A8A8A">3.2.1</font> <font color="#BCBCBC">function</font> <font color="#AA5500">(</font><font color="#8A8A8A">function</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">&lt;function calculate_score at 0x75870d80fd90&gt;</font>
-        <font color="#00AA00">├── </font><font color="#8A8A8A">3.2.2</font> <font color="#BCBCBC">class</font> <font color="#AA5500">(</font><font color="#8A8A8A">type</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">&lt;class &apos;__main__.User&apos;&gt;</font>
-        <font color="#00AA00">├── </font><font color="#8A8A8A">3.2.3</font> <font color="#BCBCBC">exception</font> <font color="#AA5500">(</font><font color="#8A8A8A">ValueError</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">Sample error</font>
-        <font color="#00AA00">╰── </font><font color="#8A8A8A">3.2.4</font> <font color="#BCBCBC">range</font> <font color="#AA5500">(</font><font color="#8A8A8A">range</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">range(0, 5)</font>
-
-</pre>
+```
+Comprehensive Data Structure Demonstration:
+├── 0 metadata (dict)
+│   ├── 0.0 created (date) ▶ 2023-05-15
+│   ├── 0.1 author (str) ▶ Test Suite
+│   ╰── 0.2 version (float) ▶ 1.2
+├── 1 users (list)
+│   ├── 1.0 (User) ▶ <__main__.User object at 0x7f8665397ca0>
+│   ├── 1.1 (User) ▶ <__main__.User object at 0x7f86653c4070>
+│   ╰── 1.2 (User) ▶ <__main__.User object at 0x7f86653c7fd0>
+├── 2 calculations (dict)
+│   ├── 2.0 scores (list)
+│   │   ├── 2.0.0 (float) ▶ 42.0
+│   │   ├── 2.0.1 (float) ▶ 52.5
+│   │   ╰── 2.0.2 (float) ▶ 63.0
+│   ╰── 2.1 average (float) ▶ 35.0
+╰── 3 data_types (dict)
+    ├── 3.0 primitives (dict)
+    │   ├── 3.0.0 integer (int) ▶ 42
+    │   ├── 3.0.1 float (float) ▶ 3.14
+    │   ├── 3.0.2 string (str) ▶ hello
+    │   ├── 3.0.3 boolean (bool) ▶ True
+    │   ╰── 3.0.4 none (NoneType) ▶ None
+    ├── 3.1 collections (dict)
+    │   ├── 3.1.0 list (list)
+    │   │   ├── 3.1.0.0 (int) ▶ 1
+    │   │   ├── 3.1.0.1 (int) ▶ 2
+    │   │   ╰── 3.1.0.2 (int) ▶ 3
+    │   ├── 3.1.1 tuple (tuple)
+    │   │   ├── 3.1.1.0 (int) ▶ 4
+    │   │   ├── 3.1.1.1 (int) ▶ 5
+    │   │   ╰── 3.1.1.2 (int) ▶ 6
+    │   ├── 3.1.2 set (set)
+    │   │   ├── 3.1.2.0 (int) ▶ 8
+    │   │   ├── 3.1.2.1 (int) ▶ 9
+    │   │   ╰── 3.1.2.2 (int) ▶ 7
+    │   ╰── 3.1.3 dict (dict)
+    │       ├── 3.1.3.0 a (int) ▶ 1
+    │       ╰── 3.1.3.1 b (int) ▶ 2
+    ╰── 3.2 special (dict)
+        ├── 3.2.0 binary (bytes) ▶ b'\x01\x02\x03'
+        ├── 3.2.1 function (function) ▶ <function calculate_score at 0x7f866584bd90>
+        ├── 3.2.2 class (type) ▶ <class '__main__.User'>
+        ├── 3.2.3 exception (ValueError) ▶ Sample error
+        ╰── 3.2.4 range (range) ▶ range(0, 5)
+```

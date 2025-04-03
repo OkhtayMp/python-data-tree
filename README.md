@@ -5,6 +5,8 @@
 
 A powerful ANSI-colored tree visualization tool for nested Python data structures.
 
+<img src="images/example.png" alt="Description" style="width: 100%;">
+
 ## Features
 
 - 🎨 **Color-coded output** for easy differentiation of data types
@@ -38,16 +40,19 @@ data = {
 print_tree(data)
 ```
 ## Example Output
+This output is color-coded like the image: [Image](images/example.png)
 
-<pre><font color="#00AAAA">├── </font><font color="#8A8A8A">0</font> <font color="#BCBCBC">name</font> <font color="#AA5500">(</font><font color="#8A8A8A">str</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">Test</font>
-<font color="#00AAAA">├── </font><font color="#8A8A8A">1</font> <font color="#BCBCBC">values</font> <font color="#AA5500">(</font><font color="#8A8A8A">list</font><font color="#AA5500">)</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">├── </font><font color="#8A8A8A">1.0</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">1</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">├── </font><font color="#8A8A8A">1.1</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">2</font>
-<font color="#00AAAA">│   </font><font color="#AA00AA">╰── </font><font color="#8A8A8A">1.2</font> <font color="#AA5500">(</font><font color="#8A8A8A">int</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">3</font>
-<font color="#00AAAA">╰── </font><font color="#8A8A8A">2</font> <font color="#BCBCBC">nested</font> <font color="#AA5500">(</font><font color="#8A8A8A">dict</font><font color="#AA5500">)</font>
-    <font color="#AA00AA">├── </font><font color="#8A8A8A">2.0</font> <font color="#BCBCBC">key</font> <font color="#AA5500">(</font><font color="#8A8A8A">str</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">value</font>
-    <font color="#AA00AA">╰── </font><font color="#8A8A8A">2.1</font> <font color="#BCBCBC">status</font> <font color="#AA5500">(</font><font color="#8A8A8A">bool</font><font color="#AA5500">)</font><font color="#AAAAAA"> ▶ </font><font color="#55FFFF">True</font>
-</pre>
+
+```
+├── 0 name (str) ▶ Test
+├── 1 values (list)
+│   ├── 1.0 (int) ▶ 1
+│   ├── 1.1 (int) ▶ 2
+│   ╰── 1.2 (int) ▶ 3
+╰── 2 nested (dict)
+    ├── 2.0 key (str) ▶ value
+    ╰── 2.1 status (bool) ▶ True
+```
 
 ###  click -> [Advanced example](example.md)
 
@@ -76,3 +81,7 @@ Pull requests are welcome! For major changes, please open an issue first to disc
 ## License 📜
 
 This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+
+
+
+
